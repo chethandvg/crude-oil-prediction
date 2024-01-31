@@ -1,5 +1,3 @@
-
-```markdown
 # Crude Oil Prediction
 
 Predicting crude oil prices accurately is crucial for making well-informed decisions, managing risks, and allocating resources effectively within the petroleum industry. This project aims to design a robust supervised learning model capable of predicting crude oil prices by leveraging historical data and relevant features.
