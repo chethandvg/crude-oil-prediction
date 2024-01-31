@@ -1,3 +1,5 @@
+
+```markdown
 # Crude Oil Prediction
 
 Predicting crude oil prices accurately is crucial for making well-informed decisions, managing risks, and allocating resources effectively within the petroleum industry. This project aims to design a robust supervised learning model capable of predicting crude oil prices by leveraging historical data and relevant features.
@@ -9,7 +11,7 @@ Predicting crude oil prices accurately is crucial for making well-informed decis
 - **datasets:** Contains the dataset of historical oil data.
 - **src:** Includes the machine learning Jupyter Notebook file with ETL techniques and model building.
 - **UserInterface:** Houses the models used by the Streamlit file and the `UI_SRH.py` file, which handles the front-end Streamlit code.
-- **Install_dependencies.sh:** Shell script containing the required dependencies and the `install_dependencies.sh` file.
+- **Install_dependencies.sh:** Shell script containing the required dependencies and the `requirements.txt` file.
 
 ## Getting Started
 
@@ -27,16 +29,16 @@ bash install_dependencies.sh
 
 ### Usage
 
-1. Run the Streamlit UI:
+1. Run the UI:
 
 ```bash
-streamlit run UI_SRH.py
+python run UI_SRH.py
 ```
 
 2. Start Streamlit:
 
 ```bash
-streamlit run lstm.py
+streamlit run UI_SRH.py
 ```
 
 ## Project Members
